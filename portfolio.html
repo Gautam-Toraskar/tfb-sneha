@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Influx | Portfolio</title>
+<title>Prabhu image | Portfolio</title>
 <meta name="description" content="">
 
 <!-- core CSS -->
@@ -16,6 +16,21 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+<style>
+  .responsive-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .responsive-container iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
 </head>
 <!--/head-->
 <body>
@@ -24,7 +39,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="index.html"><i class="fa fa-bolt"></i> Influx</a></a> </div>
+        <a class="navbar-brand" href="index.html"><i class="fa fa-bolt"></i> Prabhu image</a></a> </div>
       <div class="collapse navbar-collapse navbar-right">
         <ul class="nav navbar-nav">
           <li><a href="index.html">Home</a></li>
@@ -61,7 +76,9 @@
     <div class="row">
       <div class="portfolio-items">
         <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-4">
-          <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item1.jpg" alt="">
+          <div class="recent-work-wrap">             <div class="responsive-container">
+              <iframe src="https://player.vimeo.com/video/141567420" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
             <div class="overlay">
               <div class="recent-work-inner">
                 <h3><a href="#">Lorem Ipsum</a> </h3>
